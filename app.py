@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-dataset = pd.read_csv('heart_statlog.csv')
+dataset = pd.read_csv('HeartDisease.csv')
 
 st.title('Dashboard Klasifikasi Penyakit Jantung')
 
